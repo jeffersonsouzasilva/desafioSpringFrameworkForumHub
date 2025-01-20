@@ -121,7 +121,7 @@ Bem-vindo ao ForumHub, uma API REST construída para gerenciar tópicos e discus
     - Corpo da requisição:
    ```json
     {
-      "id": id_topico,
+      "id": "id_topico",
       "titulo": "Alterar título do tópico",
       "mensagem": "Alterar mensagem do tópico",
       "curso": "Alterar nome do curso"
@@ -145,7 +145,7 @@ Bem-vindo ao ForumHub, uma API REST construída para gerenciar tópicos e discus
 
 1. Clone o repositório:
     ```bash
-    git clone 
+    git clone https://github.com/jeffersonsouzasilva/desafioSpringFrameworkForumHub.git
     cd spring-forum-hub
     ```
 2. Configure o banco de dados:
